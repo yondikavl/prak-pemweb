@@ -4,4 +4,4 @@
 
 ### NIM : 121140161
 
-![Venom](imagess.jpg)
+![Venom](thumbnail%20pemweb.png)
