@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 2 - Pemrograman Web RB</title>
+
+    <link rel="stylesheet" href="121140161_Yondika Vio Landa_Prak2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <img src="./image/wpp.jpg" alt="Foto Yondika" width="240" />
+        <div id="header-text">
+          <h1>Hai, Saya <span>Yondika</span></h1>
+          <h3>Seorang Mahasiswa Teknik Informatika</h3>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="">Tentang saya</a></li>
+          <li><a href="">Pengalaman saya</a></li>
+          <li><a href="">Kontak saya</a></li>
+        </ul>
+      </nav>
+
+      <section class="tentang">
+        <h2>Tentang Saya</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+          fugiat ipsa saepe deleniti? Veritatis sed totam quia aut deserunt
+          facere molestiae architecto nihil cumque deleniti, minus magnam,
+          sapiente molestias libero dolore recusandae nesciunt! Sunt incidunt
+          sed iure minima, totam perferendis maiores veniam sit natus eligendi
+          repudiandae soluta aperiam iusto quis!
+        </p>
+        <div id="video-saya" align="center">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/4qMGuIJzZiE?si=Qi8jRX2YDX5sy4it"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="pengalaman">
+        <h2>Pengalaman Saya</h2>
+        <div class="tabel">
+          <table border="1">
+            <tr>
+              <th rowspan="2">No</th>
+              <th rowspan="2">posisi</th>
+              <th rowspan="2">perusahaan</th>
+              <th colspan="2">waktu</th>
+            </tr>
+            <tr>
+              <th>mulai</th>
+              <th>selesai</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>andi</td>
+              <td>1</td>
+              <td>andi</td>
+              <td>1</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section class="hubungi">
+        <h2>Hubungi Saya</h2>
+        <form action="">
+          <label for="nama">Nama</label>
+          <input
+            type="text"
+            name="text-input"
+            placeholder="Masukkan Nama"
+          /><br />
+          <label for="email">Email</label>
+          <input type="email" name="email-input" placeholder="Masukkan Email" />
+          <p>Kategori</p>
+          <select name="single-select">
+            <option value="value-saran">Saran</option>
+            <option value="value-bantuan">Bantuan</option>
+          </select>
+          <input type="radio" name="film" id="film" />
+          <input
+            type="text"
+            name="text-input"
+            placeholder="Masukkan Pesan"
+          /><br /><br />
+          <button type="button">Kirim</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

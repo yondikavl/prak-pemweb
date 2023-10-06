@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Play", sans-serif;
+}
+
+.jumbotron {
+  background-color: #191c26;
+  display: flex;
+  justify-content: start;
+}
+
+.jumbotron img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 40px;
+}
+
+.jumbotron #header-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jumbotron #header-text h1 span {
+  color: #b85f5f;
+}
+
+.jumbotron #header-text h3 {
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  background-color: #b85f5f;
+  padding: 12px;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 4px 20px;
+  color: white;
+}
+
+a:hover {
+  color: #b85f5f;
+}
+
+.tentang {
+  margin: 20px;
+  background-color: #d1d1d1;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+#video-saya {
+  margin: 20px 0;
+}
+
+.pengalaman {
+  margin: 20px;
+  background-color: #d1d1d1;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.tabel {
+  display: flex;
+  justify-content: center;
+}
+
+.tabel table {
+  width: 100%;
+  border: 0;
+}
+
+.tabel table th {
+  background-color: #8a8a8a;
+}
+
+.hubungi {
+  margin: 20px;
+  background-color: #d1d1d1;
+  padding: 20px;
+  border-radius: 16px;
+}
