@@ -15,6 +15,7 @@ body {
   height: 200px;
   border-radius: 50%;
   background-color: #c99d3e;
+  padding: 8px;
 }
 
 .jumbotron #header-text {
@@ -50,11 +51,8 @@ nav {
 nav a {
   color: #c99d3e;
   padding: 8px 20px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(9.1px);
-  -webkit-backdrop-filter: blur(9.1px);
-  border-radius: 4px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 nav ul {
@@ -67,10 +65,7 @@ nav ul li a {
   text-decoration: none;
   padding: 8px 20px;
   color: white;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(9.1px);
-  -webkit-backdrop-filter: blur(9.1px);
-  border-radius: 4px;
+  font-weight: 400;
 }
 
 a:hover {
