@@ -84,7 +84,7 @@ a:hover {
   margin: 20px 0;
 }
 
-#video-saya iframe {
+#video-saya video {
   border-radius: 16px;
 }
 
@@ -131,4 +131,8 @@ a:hover {
   background-color: #e6eef5;
   padding: 20px;
   border-radius: 16px;
+}
+
+.hubungi h2 {
+  text-align: center;
 }
