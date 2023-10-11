@@ -107,6 +107,7 @@ a:hover {
 .tabel table {
   width: 100%;
   border: 0;
+  overflow-x: scroll;
 }
 
 .tabel table th {
@@ -135,4 +136,10 @@ a:hover {
 
 .hubungi h2 {
   text-align: center;
+}
+
+.hubungi input {
+  padding: 4px 12px;
+  margin: 8px;
+  border: none;
 }
