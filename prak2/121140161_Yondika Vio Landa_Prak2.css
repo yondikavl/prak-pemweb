@@ -143,3 +143,11 @@ a:hover {
   margin: 8px;
   border: none;
 }
+
+.hubungi button {
+  border: none;
+  padding: 8px 16px;
+  background-color: #c99d3e;
+  color: white;
+  border-radius: 4px;
+}
