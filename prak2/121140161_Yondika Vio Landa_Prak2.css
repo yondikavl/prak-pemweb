@@ -138,10 +138,25 @@ a:hover {
   text-align: center;
 }
 
+.hubungi form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30%;
+}
+
 .hubungi input {
   padding: 4px 12px;
-  margin: 8px;
+  margin: 8px 0;
   border: none;
+  border-radius: 4px;
+}
+
+.hubungi select {
+  padding: 4px 12px;
+  margin: 8px 0;
+  border: none;
+  background-color: grey;
+  border-radius: 4px;
 }
 
 .hubungi button {
@@ -149,5 +164,12 @@ a:hover {
   padding: 8px 16px;
   background-color: #c99d3e;
   color: white;
+  border-radius: 4px;
+}
+
+.hubungi textarea {
+  padding: 4px 12px;
+  margin: 8px 0;
+  border: none;
   border-radius: 4px;
 }
