@@ -1,0 +1,84 @@
+* {
+  font-family: "Play", sans-serif;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: minmax(60px, auto) repeat(5, 60px);
+  min-height: 100vh;
+  margin: 10px 0;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  background-color: rgb(255, 185, 45);
+  border: none;
+  margin: 4px;
+  border-radius: 8px;
+}
+
+.result {
+  grid-column: span 2; /* ini membuat tombol "=" menempati 2 kolom */
+  background-color: #ffb92d;
+}
+
+button:hover {
+  background-color: rgb(199, 142, 29);
+  color: white;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: #333;
+  border-radius: 20px 20px 0 0;
+  word-wrap: break-word;
+  word-break: break-all;
+  -ms-word-break: break-all;
+  -ms-word-wrap: break-word;
+  padding: 20px;
+}
+
+.output .title {
+  font-weight: 700;
+}
+
+.overoutput {
+  background-color: #3f3f3f;
+  padding-right: 10px;
+  padding: 10px;
+  text-align: end;
+  font-size: 20px;
+  color: rgb(255, 185, 45);
+  min-height: 25px;
+  border-radius: 8px;
+}
+
+.tempoutput {
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  min-height: 25px;
+}
+
+.underoutput {
+  padding: 20px;
+  text-align: end;
+  font-size: 30px;
+  color: white;
+  min-height: 50px;
+  font-weight: 700;
+}
+
+.title {
+  text-align: center;
+  height: 40px;
+  padding-top: 10px;
+  font-size: 25px;
+  color: white;
+}

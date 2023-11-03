@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM | Latihan Prak Pemweb 5</title>
+  </head>
+  <body>
+    <button onclick="this.innerHTML='Ganti'">Latihan DOM</button>
+    <input type="text" id="input" />
+    <button onclick="fungsiOnClick()">Klik</button>
+    <p id="hasil"></p>
+
+    <p>Pilih matkul</p>
+    <select id="matkul" onchange="fungsiOnChange()">
+      <option value="matkul1">Matkul 1</option>
+      <option value="matkul2">Matkul 2</option>
+      <option value="matkul3">Matkul 3</option>
+    </select>
+
+    <p>Kamu memilih :</p>
+    <p id="hasil2"></p>
+
+    <p
+      id="hasil3"
+      onmouseover="fungsiOnMouseOver()"
+      onmouseout="fungsiOnMouseOut()"
+    >
+      OnMouseOverNOut
+    </p>
+
+    <p
+      id="hasil4"
+      onmousedown="fungsiOnMouseDown()"
+      onmouseup="fungsiOnMouseUp()"
+    >
+      OnMouseDownNUp
+    </p>
+
+    <script>
+      function fungsiOnClick() {
+        let input = document.getElementById("input").value;
+        document.getElementById("hasil").innerHTML = input;
+      }
+
+      function fungsiOnChange() {
+        let input = document.getElementById("matkul").value;
+        document.getElementById("hasil2").innerHTML = input;
+      }
+
+      function fungsiOnMouseOver() {
+        document.getElementById("hasil3").style.color = "red";
+      }
+
+      function fungsiOnMouseOut() {
+        document.getElementById("hasil3").style.color = "black";
+      }
+
+      function fungsiOnMouseDown() {
+        document.getElementById("hasil4").style.color = "red";
+      }
+
+      function fungsiOnMouseUp() {
+        document.getElementById("hasil4").style.color = "black";
+      }
+    </script>
+  </body>
+</html>
