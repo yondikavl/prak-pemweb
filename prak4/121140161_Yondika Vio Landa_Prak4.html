@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PRAK 4 | JavaScript Dasar</title>
 
+    <!-- Gaya CSS untuk mengatur tampilan halaman -->
     <style>
       body {
         text-align: center;
@@ -18,13 +19,13 @@
     </style>
   </head>
   <body>
-    <!-- <h1>Nama : Yondika Vio Landa</h1>
+    <!-- Komentar berikut ini digunakan untuk menyembunyikan elemen yang tidak digunakan atau diaktifkan.
+    <h1>Nama : Yondika Vio Landa</h1>
     <h1>NIM : 121140161</h1>
+    <img src="/thumbnail pemweb.png" alt="thumbnail_repoGithub_pemweb" />
+    -->
 
-    <img src="/thumbnail pemweb.png" alt="thumbnail_repoGithub_pemweb" /> -->
-
-    <!-- <script src="script.js"></script> -->
-
+    <!-- Kode JavaScript yang menghitung bilangan ganjil dan genap -->
     <h1>Hitung Ganjil Genap</h1>
     <p>Masukkan bilangan :</p>
     <input type="number" id="bilangan" />
@@ -34,11 +35,13 @@
     <p id="genap">Genap :</p>
 
     <script>
+      // Fungsi untuk menghitung bilangan ganjil dan genap
       function ganjilGenap() {
         var bilangan = parseInt(document.getElementById("bilangan").value);
         var ganjil = 0;
         var genap = 0;
 
+        // Memeriksa apakah bilangan positif
         if (bilangan >= 0) {
           for (var i = 1; i <= bilangan; i++) {
             if (i % 2 === 0) {
@@ -47,9 +50,11 @@
               ganjil++;
             }
           }
+          // Menampilkan hasil perhitungan pada elemen teks
           document.getElementById("ganjil").textContent = "Ganjil: " + ganjil;
           document.getElementById("genap").textContent = "Genap: " + genap;
         } else {
+          // Menampilkan pesan kesalahan jika bilangan tidak positif
           alert("Masukkan bilangan genap positif!");
         }
       }
