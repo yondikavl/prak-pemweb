@@ -1,7 +1,9 @@
+/* Mengatur font family untuk seluruh elemen di halaman */
 * {
   font-family: "Play", sans-serif;
 }
 
+/* Mengatur tampilan container kalkulator */
 .container {
   display: grid;
   justify-content: center;
@@ -12,6 +14,7 @@
   margin: 10px 0;
 }
 
+/* Mengatur tampilan tombol */
 button {
   cursor: pointer;
   outline: none;
@@ -22,16 +25,19 @@ button {
   border-radius: 8px;
 }
 
+/* Mengatur tampilan tombol hasil perhitungan */
 .result {
-  grid-column: span 2; /* ini membuat tombol "=" menempati 2 kolom */
+  grid-column: span 2; /* Ini membuat tombol "=" menempati 2 kolom */
   background-color: #ffb92d;
 }
 
+/* Mengatur tampilan tombol saat dihover (melayang) */
 button:hover {
   background-color: rgb(199, 142, 29);
   color: white;
 }
 
+/* Mengatur tampilan layar kalkulator */
 .output {
   grid-column: 1 / -1;
   background-color: #333;
@@ -43,10 +49,12 @@ button:hover {
   padding: 20px;
 }
 
+/* Mengatur tampilan judul kalkulator */
 .output .title {
   font-weight: 700;
 }
 
+/* Mengatur tampilan output di atas layar */
 .overoutput {
   background-color: #3f3f3f;
   padding-right: 10px;
@@ -58,6 +66,7 @@ button:hover {
   border-radius: 8px;
 }
 
+/* Mengatur tampilan output sementara di bawah layar */
 .tempoutput {
   background-color: #333;
   color: #fff;
@@ -66,6 +75,7 @@ button:hover {
   min-height: 25px;
 }
 
+/* Mengatur tampilan output utama di bawah layar */
 .underoutput {
   padding: 20px;
   text-align: end;
@@ -75,6 +85,7 @@ button:hover {
   font-weight: 700;
 }
 
+/* Mengatur tampilan judul kalkulator */
 .title {
   text-align: center;
   height: 40px;
